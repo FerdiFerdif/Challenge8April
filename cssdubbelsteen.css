@@ -1,0 +1,260 @@
+html,body {
+    margin: 0;
+}
+
+* {
+    text-decoration: none;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+input {
+    border-radius: 5px;
+    padding: 2px;
+    width: 150px;
+    font-size: 30px;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+nav a img {
+    max-height: 20%;
+    max-width: 20%;
+    padding-bottom: 20px;
+    padding-top: 40px;
+
+}
+
+#xd {
+    background-image: url("https://www.goombastomp.com/wp-content/uploads/2015/08/319998-1.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 50px;
+    padding-left: 15px;
+    border: solid black 5px;
+
+}
+
+div.mainbackscreen img {
+    float: left;
+    padding-left: 60px;
+    padding-top: 20px;
+    max-width: 180px;
+}
+
+div.mainbackscreen {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    padding-left: 0px  ;
+    font-size: 30px;
+    background-image: url("https://images.wallpaperscraft.com/image/orange_white_solid_colorful_65839_1920x1080.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    height: 800px;
+
+
+
+}
+
+div.textblock {
+    font-size: 40px;
+    margin: 0 auto;
+    max-width: 100%;
+    background: rgba(255,255,255,1);
+    width: 1300px;
+    height: 815px;
+}
+
+div.text {
+    font-family: 'Baloo Chettan', cursive;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 1px;
+    color: rgba(0,0,0,0.8);
+
+}
+
+div.smalltext {
+    font-size: 25px;
+    font-family: 'Baloo Chettan', cursive ;
+    font-weight: bold;
+    margin: 0;
+    color:black;
+
+    padding-bottom: 5px;
+}
+
+#Hoofdtitel {
+    text-shadow: 2px 2px 5px rgba(193, 89, 15,1);
+
+}
+
+#Hoofdtitel img {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+#hele {
+    text-align: left;
+    padding-left: 325px;
+
+}
+
+div.helekleinetext {
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+div.smalltext2 {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    color:black;
+
+    padding-bottom: 5px;
+}
+
+div.helekleinetext2 {
+    text-align: left;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 10px; }
+
+div.smalltext3 {
+    padding-top: 40px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#xd img {
+    min-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.text img  {
+    margin: 0;
+    width: 100px;
+    position: absolute;
+    top: 65%;
+    left: 48%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+@media screen and (max-width: 1600px) {
+
+    #xd img {
+        min-width: 300px;
+    }
+
+    @media screen and (max-width: 1200px) {
+
+        #hele {
+            padding-left: 250px;
+        }
+    }
+
+    @media screen and (max-width: 1050px) {
+
+        #hele {
+            padding-left: 125px;
+        }
+    }
+
+
+    @media screen and (max-width: 975px) {
+
+        #hele {
+            padding-left: 75px;
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+
+        div.smalltext3 img {
+            width: 550px;
+        }
+
+        #hele {
+            padding-left: 50px;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        #hele, #hele2 {
+            font-size: 18px;
+
+        }
+
+        div.helekleinetext {
+            padding-right: 80px;
+            padding-left: 80px;
+        }
+
+        div.helekleinetext2 {
+            padding-right: 80px;
+            padding-left: 80px;
+        }
+
+        div.smalltext3 img {
+            width: 500px;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+
+        #Hoofdtitel {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        #hele, #hele2 {
+            font-weight: bold;
+            font-size: 17px;
+            padding-left: 0px;
+        }
+
+        div.helekleinetext {
+            padding-right: 60px;
+            padding-left: 60px;
+        }
+
+        div.helekleinetext2 {
+            padding-right: 60px;
+            padding-left: 60px;
+        }
+
+        div.smalltext3 img {
+            width: 350px;
+        }
+
+        #smalltext {
+            font-size: 20px;
+        }
+
+        #smalltext2 {
+            font-size: 20px;
+        }
+    }
+}

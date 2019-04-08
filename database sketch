@@ -1,0 +1,15 @@
+MYSQL database challenge Ferdi van den Brom klas 8A 4/8/2019
+
+inloggen met --port=8889 -uroot -proot
+
+ingesteld op de MAMP MYSQL database server
+
+---DATABASE DESIGN---
+
+create database ferdigames;
+
+use ferdigames;
+
+create table speler(speler_ID INT NOT NULL AUTO_INCREMENT,naam varchar(50),email varchar(100), PRIMARY KEY(speler_ID));
+
+create table resultaat(resultaat_ID INT NOT NULL AUTO_INCREMENT, speler_ID INT, moment_ID DATETIME, gok INT, gooi INT, spel varchar(20), PRIMARY KEY(resultaat_ID));
